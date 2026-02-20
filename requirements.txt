@@ -1,0 +1,14 @@
+streamlit
+pypdf
+google-genai
+groq
+rank_bm25
+numpy
+plotly
+reportlab
+faiss-cpu
+python-dotenv
+sentence-transformers
+
+
+https://www.loom.com/share/59c1a470a2254a34acfeeef07aa58891

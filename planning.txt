@@ -1,0 +1,29 @@
+step-1 : reading the content from the pdf file
+step-2 : perform semantic chunking on the content
+step-3 : store the chunks in the vector database
+step-4 : user asks a question(query)
+step-5 : retrieve by two techniques
+         ● Vector-only (semantic search)
+● Hybrid (BM25/keyword + vector rerank) 
+step-6 : using 8 benchmark queries, calculate the metrics
+         1) Precision@k
+         2)Recall@k
+         3)latency
+step-7 : give two context to the LLM
+         1) Vector-only (semantic search)
+         2) Hybrid (BM25/keyword + vector rerank)
+
+# File Structure:
+1)extracted_content: i)extracted content from the pdf file
+                     ii) remove header and footer
+2)semantic_chunking: i) semantic chunking
+                     ii) create embeddings
+                     iii) store in vector database
+3)retrieval by two techniques:
+        i) Vector-only (semantic search) [class]
+        ii) Hybrid (BM25/keyword + vector rerank) [class]
+4)reaponse_generation: i) LLM two diff calls from two techniques--> context + query
+        
+
+api= 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
+
