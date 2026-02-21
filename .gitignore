@@ -11,10 +11,6 @@ env/
 venv/
 ENV/
 
-# Data and Vector DB
-data/vector_db/index.faiss
-data/vector_db/chunks.pkl
-data/*.pdf
 
 # Streamlit
 .streamlit/
